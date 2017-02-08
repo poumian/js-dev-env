@@ -1,6 +1,8 @@
 import "whatwg-fetch";
 import getBaseUrl from './baseUrl';
 
+/*eslint-disable no-console*/
+
 const baseUrl = getBaseUrl();
 
 export function getUsers() {
